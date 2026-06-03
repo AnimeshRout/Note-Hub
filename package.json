@@ -1,0 +1,11 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Full-stack glassmorphic notes app",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "setup": "npm run install:all && echo '\\n✅ Installation complete! Now:\\n  1. cd backend && cp .env.example .env  (fill in values)\\n  2. cd frontend && cp .env.example .env\\n  3. Run: npm run dev:backend and npm run dev:frontend in separate terminals'"
+  }
+}
